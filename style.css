@@ -1,0 +1,42 @@
+body {
+    background-color: green;
+}
+#card {
+    height: 500px;
+    width: 350px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+#number {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 330px;
+    font-size: 130px;
+}
+.palonor {
+    font-size: 70px;
+    margin-left: 10px;
+}
+.paloinv {
+    text-align: right;
+    font-size: 70px;
+    margin-right: 10px ;
+    -webkit-transform: rotateX( 180deg );
+    -moz-transform: rotateX( 180deg );
+    -o-transform: rotateX( 180deg );
+    transform: rotateX( 180deg );
+
+}
+.pica {
+    color: black;
+}
+.trebol {
+    color: black;
+}
+.corazon {
+    color: red;
+}
+.diamante {
+    color: red;
+}
